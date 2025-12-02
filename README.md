@@ -10,7 +10,7 @@ In this repository, I demonstrate the basic steps of controlling an ESP32. Using
 - ESP32
 - Host(For personal startup)
 - MQTT Broker(For personal startup)
-
+- You can read about my free MQTT broker here:[My Broker](https://masihch.com/mqtt-public-broker-free-test-server/)
 
 ## 🚀 How to Run
 
