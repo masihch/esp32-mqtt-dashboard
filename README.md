@@ -1,2 +1,25 @@
 # esp32-led-anywhere-control
 In this repository, I demonstrate the basic steps of controlling an ESP32. Using the MQTT protocol and my ready-to-use dashboard, you can turn an LED on and off from anywhere in the world.
+
+-  **Global Control** ESP32 built in LED.
+-  **Web Dashboard** for remotly control. 
+-  **Use Free Public MQTT Broker** for connection.
+
+## ⚙️ Requirements
+
+- ESP32
+- Host(For personal startup)
+- MQTT Broker(For personal startup)
+
+
+## 🚀 How to Run
+
+First, clone the repository:
+
+```bash
+git clone https://github.com/masihch/esp32-led-anywhere-control.git
+cd esp32-led-anywhere-control
+
+```
+-Then,Open the program in the ESP32 folder and upload it to the esp32
+-Open this URL and start controlling! [https://](https://lab.masihch.com/control-esp32-from-anywhere-in-the-world/index.html)

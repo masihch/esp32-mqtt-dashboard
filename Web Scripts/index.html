@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Control from anywhere</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+</head>
+<body>
+
+  <h2>Control from anywhere(MQTT)</h2>
+
+  <button id="connectBtn">Connect to Broker</button>
+
+  <h3>LED Control</h3>
+  <div class="topic-box">
+    <label for="topicInput">Topic:</label>
+    <input type="text" id="topicInput" value="esp32/led">
+  </div>
+
+  <div id="toggleBtn" class="toggle"></div>
+
+  <p id="status" class="status"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
