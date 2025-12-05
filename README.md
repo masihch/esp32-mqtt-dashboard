@@ -1,10 +1,11 @@
-# IOT-MQTT-Dashboards
-In this repository, I demonstrate the basic steps of controlling an ESP32. Using the MQTT protocol and my ready-to-use dashboard, you can turn an LED on and off from anywhere in the world.
+# IOT-MQTT-Web-Dashboards
+In this repository, I plan to provide real time smart web dashboards that work with the MQTT protocol. They will be available both as open source code for development and as quick access instances hosted on my servers, so you can more easily test and deploy your own projects.
 
--  **Global Control** ESP32 built in LED.
--  **Web Dashboard** for remotly control. 
--  **Use Free Public MQTT Broker** for connection.
-
+-  **Global Control** from anywhere.
+-  **Web Dashboards** For applied projects. 
+-  **Used Free Public MQTT Broker** for connection.
+-  **Expandable** for commercial projects.
+  
 ## ⚙️ Requirements
 
 - ESP32
@@ -24,6 +25,6 @@ cd esp32-led-anywhere-control
 -Then,Open the program in the ESP32 folder and upload it to the esp32
 -Open this URL and start controlling! [Dahboard](https://lab.masihch.com/control-esp32-from-anywhere-in-the-world/index.html)
 ## View of the project
-![ESP32-Dash](https://github.com/masihch/esp32-mqtt-dashboard/blob/main/images/view.webp)
-![Dashboard-control](https://github.com/masihch/esp32-mqtt-dashboard/blob/main/images/web-dashboard.webp)
-![Dashboard-monitoring](https://github.com/masihch/esp32-mqtt-dashboard/blob/main/images/web-monitor-dashboard.webp)
+![ESP32-Dash](https://github.com/masihch/iot-mqtt-web-dashboards/blob/main/images/view.webp)
+![Dashboard-control](https://github.com/masihch/iot-mqtt-web-dashboards/blob/main/images/web-dashboard.webp)
+![Dashboard-monitoring](https://github.com/masihch/iot-mqtt-web-dashboards/blob/main/images/web-monitor-dashboard.webp)
