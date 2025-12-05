@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ESP32 MQTT Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>ESP32 MQTT Dashboard</h2>
+
+  <!-- Topic input panel -->
+  <div class="topic-box">
+    <label for="topicInput">Subscribe Topic:</label>
+    <input type="text" id="topicInput" value="esp32/sensor">
+    <button id="connectBtn">Connect & Subscribe</button>
+  </div>
+
+  <!-- Temperature panel -->
+  <div class="panel">
+    <div class="icon">🌡️</div>
+    <div class="value" id="tempValue">-- °C</div>
+    <canvas id="tempChart"></canvas>
+  </div>
+
+  <!-- Humidity panel -->
+  <div class="panel">
+    <div class="icon">💧</div>
+    <div class="value" id="humValue">-- %</div>
+    <canvas id="humChart"></canvas>
+  </div>
+
+  <p id="status" class="status"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
