@@ -37,7 +37,7 @@ You can develop this dashboard for your own project or commercialize it. I have 
 ## 2.Basic Monitoring [Dashboard](https://lab.masihch.com/monitor-esp32-from-anywhere-in-the-world/index.html)
 A simple graphical dashboard that connects to an MQTT server and subscribes to a topic to receive sensor information (DHT11). It receives messages received from the device in the form of Json and performs the necessary processing
 
-Video of this project : [LinkedIn]()
+Video of this project : [LinkedIn](https://www.linkedin.com/posts/masihchatraei_iot-monitoring-mqtt-activity-7405243677796712448-vHUd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoT1ccBd-x75PEukkkJF4yjdgTMxKT1zc0)
 
 ### 🚀 How to use
 
